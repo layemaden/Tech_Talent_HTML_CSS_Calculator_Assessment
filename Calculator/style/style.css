@@ -1,0 +1,70 @@
+body{
+    background-color: #e0c2ef;
+}
+
+
+.calculator{
+    background-color: #d6d6e7;
+    display: grid;
+    width: 20rem;
+    height: 40rem ;
+    margin: 10rem auto;
+    background: transparent;  
+}
+
+span{
+    position: absolute;
+    top: 16rem;
+    right: 48rem;
+    color: white;
+}
+.answer{
+    display: grid;
+    font-size: 30px;
+    text-align: end;    
+    background-color: #011d36;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    height: 100%;
+    padding-top: auto;
+}
+span{
+    margin-top: 0.5rem;
+    padding: 0 1rem;
+    color: white;
+}
+.calculator .answer .degree{
+    font-size: 0.5rem;
+}
+
+.calculator_body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: none;
+}
+button{
+    background-color: #022a4a;
+    color: white;
+    font-size: 25px;
+}
+
+.operation_button_equal{
+    grid-column: 4/4;
+    grid-row: 4/ span 2;
+}
+.calculator_button_zero{
+    grid-column: 1/ span 2;
+}
+
+.delete, .clear_button, .operation_button_equal{
+    color: #1fa22f;
+}
+ .operation_button{
+    color: #867fd1;
+}
+.calculator_button_zero{
+    border-bottom-left-radius: 1rem; 
+}
+.operation_button_equal{
+    border-bottom-right-radius: 1rem;
+}
